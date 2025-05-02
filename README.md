@@ -55,7 +55,6 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 - Create a .env file in your root folder and put
 
 ```
-
 NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
 NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
 NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
