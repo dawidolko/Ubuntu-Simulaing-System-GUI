@@ -5,7 +5,7 @@ _A Next.js + Tailwind CSS portfolio that re-creates the Ubuntu 20.04 desktop ins
 [![Website Status](https://img.shields.io/website?down_color=red&down_message=offline&up_message=online&url=https%3A%2F%2Fubuntu.dawidolko.pl)](https://ubuntu.dawidolko.pl)
 [![Stars](https://img.shields.io/github/stars/dawidolko/Simulaing-Ubuntu-System-GUI?style=social)](https://github.com/dawidolko/Simulaing-Ubuntu-System-GUI/stargazers)
 
-> **Live Demo:** <https://ubuntu.dawidolko.pl>  
+> **Live Demo:** <https://ubuntu.dawidolko.pl>
 
 ---
 
