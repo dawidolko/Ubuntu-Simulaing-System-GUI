@@ -4,7 +4,6 @@ import Head from "next/head";
 export default function Meta() {
   return (
     <Head>
-      /* Primary Meta Tags */
       <title>ubuntu.dawidolko.pl - Simulaing System Ubuntu</title>
       <meta charSet="utf-8" />
       <meta
@@ -25,9 +24,7 @@ export default function Meta() {
       <meta name="language" content="English" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#E95420" />
-      /* Search Engine */
       <meta name="image" content="images/logos/fevicon.png" />
-      /* Schema.org for Google */
       <meta
         itemProp="name"
         content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
@@ -37,7 +34,6 @@ export default function Meta() {
         content="dawidolko's (dawidolko) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
       <meta itemProp="image" content="images/logos/fevicon.png" />
-      /* Twitter */
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:title"
@@ -50,7 +46,6 @@ export default function Meta() {
       <meta name="twitter:site" content="dawidolko" />
       <meta name="twitter:creator" content="dawidolko" />
       <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
-      /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
         name="og:title"
         content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
