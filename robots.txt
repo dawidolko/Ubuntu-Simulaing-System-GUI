@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
+# Wszystko w tym serwisie jest publiczne.
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://ubuntu.dawidolko.pl/sitemap.xml
