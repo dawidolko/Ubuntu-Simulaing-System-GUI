@@ -188,7 +188,9 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
-          <span className="text-pink-600 font-bold">Frontend Engineer!</span>
+          <span className="text-pink-600 font-bold">
+            Fullstack / AI Developer
+          </span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -197,41 +199,27 @@ function About() {
       </div>
       <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I'm a <span className=" font-medium">Graduate Student</span> currently
-          pursuing Computer Science. I've completed my 3 year intern at{" "}
-          <u className=" cursor-pointer ">
-            {" "}
-            <a
-              href="https://en.wikipedia.org/wiki/HackerRank"
-              target={"_blank"} rel="noopener noreferrer">
-              HackerRank
-            </a>{" "}
-          </u>
-          , and now I'm looking for full-time frontend engineer roles! ( Hit me
-          up{" "}
-          <a className="text-underline" href="mailto:poczta@dawidolko.pl">
-            <u>@poczta@dawidolko.pl</u>
-          </a>{" "}
-          :) )
+          I'm from Rzeszów, Poland. I hold a{" "}
+          <span className=" font-medium">BEng in Computer Science</span> from
+          the University of Rzeszów, and my MSc is in progress.
         </li>
         <li className=" mt-3 list-building">
           {" "}
-          I enjoy building awesome softwares that solve practical problems.
-        </li>
-        <li className=" mt-3 list-time">
-          {" "}
-          When I am not coding my next project, I like to spend my time reading
-          books, playing minecraft or watching{" "}
-          <a
-            href="https://www.youtube.com/channel/UCLoOFd2JRTF5_CI3EUq-uCw"
-            target="_blank" rel="noopener noreferrer">
-            {" "}
-            dawidolko's videos.
-          </a>
+          I build web applications end to end and tools for working with AI
+          coding agents.
         </li>
         <li className=" mt-3 list-star">
           {" "}
-          And I also have interest in Deep Learning & Computer Vision!
+          I'm a co-creator of{" "}
+          <u className=" cursor-pointer ">
+            <a
+              href="https://skribly.pl"
+              target="_blank"
+              rel="noopener noreferrer">
+              Skribly
+            </a>
+          </u>
+          .
         </li>
       </ul>
       <div className="mt-6 mb-4 w-5/6 md:w-3/4 text-xs md:text-sm text-center">
@@ -264,11 +252,15 @@ function Education() {
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
             University of Rzeszów
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2022 - 2025</div>
-          <div className=" text-sm md:text-base">Computer Science</div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
-            GPA &nbsp; 5.0/5.0
+          <div className=" text-sm text-gray-400 mt-0.5">2026 - present</div>
+          <div className=" text-sm md:text-base">MSc in Computer Science</div>
+        </li>
+        <li className="list-disc">
+          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+            University of Rzeszów
           </div>
+          <div className=" text-sm text-gray-400 mt-0.5">2022 - 2026</div>
+          <div className=" text-sm md:text-base">BEng in Computer Science</div>
         </li>
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -276,9 +268,6 @@ function Education() {
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
           <div className=" text-sm md:text-base">Electrical technician</div>
-          <div className="text-sm text-gray-300 font-bold mt-1">
-            CGPA &nbsp; 8.0/10
-          </div>
         </li>
       </ul>
     </>
@@ -303,7 +292,7 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              front-end development, React.js & javascript!
+              web applications end to end and tools for AI coding agents!
             </strong>
           </div>
         </li>
@@ -336,11 +325,6 @@ function Skills() {
               className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
               alt="dawidolko python"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="dawidolko dart"
             />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
@@ -380,11 +364,6 @@ function Skills() {
               className=" m-1"
               src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"
               alt="dawidolko react"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="dawidolko flutter"
             />
             <img
               className="m-1"
