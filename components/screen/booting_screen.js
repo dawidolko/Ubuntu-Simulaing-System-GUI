@@ -15,8 +15,8 @@ function BootingScreen(props) {
         " absolute duration-500 select-none flex flex-col justify-around items-center top-0 right-0 overflow-hidden m-0 p-0 h-screen w-screen bg-black"
       }>
       <img
-        width="400px"
-        height="400px"
+        width="400"
+        height="400"
         className="md:w-1/4 w-1/2"
         src="./themes/Yaru/status/cof_orange_hex.svg"
         alt="Ubuntu Logo"
@@ -27,8 +27,8 @@ function BootingScreen(props) {
         {props.isShutDown ? (
           <div className="bg-white rounded-full flex justify-center items-center w-10 h-10 hover:bg-gray-300">
             <img
-              width="32px"
-              height="32px"
+              width="32"
+              height="32"
               className="w-8"
               src="./themes/Yaru/status/power-button.svg"
               alt="Power Button"
@@ -36,8 +36,8 @@ function BootingScreen(props) {
           </div>
         ) : (
           <img
-            width="40px"
-            height="40px"
+            width="40"
+            height="40"
             className={" w-10 " + (props.visible ? " animate-spin " : "")}
             src="./themes/Yaru/status/process-working-symbolic.svg"
             alt="Ubuntu Process Symbol"
@@ -45,8 +45,8 @@ function BootingScreen(props) {
         )}
       </div>
       <img
-        width="200px"
-        height="100px"
+        width="200"
+        height="100"
         className="md:w-1/5 w-1/2"
         src="./themes/Yaru/status/ubuntu_white_hex.svg"
         alt="Ubuntu Name"
@@ -55,15 +55,13 @@ function BootingScreen(props) {
         <a
           className="underline"
           href="https://www.linkedin.com/in/dawidolko/"
-          rel="noreferrer noopener"
-          target="_blank">
+          target="_blank" rel="noopener noreferrer">
           linkedin
         </a>
         <span className="font-bold mx-1">|</span>
         <a
           href="https://github.com/dawidolko/Simulaing-Ubuntu-System-GUI"
-          rel="noreferrer noopener"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           className="underline">
           github
         </a>

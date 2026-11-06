@@ -67,7 +67,7 @@ export class StatusCard extends Component {
 				<div className="absolute w-0 h-0 -top-1 right-6 top-arrow-up" />
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/audio-headphones-symbolic.svg" alt="ubuntu headphone" />
+						<img width="16" height="16" src="./themes/Yaru/status/audio-headphones-symbolic.svg" alt="ubuntu headphone" />
 					</div>
 					<Slider
 						onChange={this.handleSound}
@@ -78,7 +78,7 @@ export class StatusCard extends Component {
 				</div>
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/display-brightness-symbolic.svg" alt="ubuntu brightness" />
+						<img width="16" height="16" src="./themes/Yaru/status/display-brightness-symbolic.svg" alt="ubuntu brightness" />
 					</div>
 					<Slider
 						onChange={this.handleBrightness}
@@ -92,7 +92,7 @@ export class StatusCard extends Component {
 				</div>
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="ubuntu wifi" />
+						<img width="16" height="16" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="ubuntu wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
 						<span>OnePlus 8 Pro</span>
@@ -101,7 +101,7 @@ export class StatusCard extends Component {
 				</div>
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/bluetooth-symbolic.svg" alt="ubuntu bluetooth" />
+						<img width="16" height="16" src="./themes/Yaru/status/bluetooth-symbolic.svg" alt="ubuntu bluetooth" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
 						<span>Off</span>
@@ -110,7 +110,7 @@ export class StatusCard extends Component {
 				</div>
 				<div className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20">
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="ubuntu battery" />
+						<img width="16" height="16" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="ubuntu battery" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
 						<span>2:40 Remaining (75%)</span>
@@ -125,7 +125,7 @@ export class StatusCard extends Component {
 					className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20"
 				>
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/emblem-system-symbolic.svg" alt="ubuntu settings" />
+						<img width="16" height="16" src="./themes/Yaru/status/emblem-system-symbolic.svg" alt="ubuntu settings" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
 						<span>Settings</span>
@@ -136,7 +136,7 @@ export class StatusCard extends Component {
 					className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20"
 				>
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/changes-prevent-symbolic.svg" alt="ubuntu lock" />
+						<img width="16" height="16" src="./themes/Yaru/status/changes-prevent-symbolic.svg" alt="ubuntu lock" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
 						<span>Lock</span>
@@ -147,7 +147,7 @@ export class StatusCard extends Component {
 					className="w-64 py-1.5 flex items-center justify-center bg-ub-cool-grey hover:bg-ub-warm-grey hover:bg-opacity-20"
 				>
 					<div className="w-8">
-						<img width="16px" height="16px" src="./themes/Yaru/status/system-shutdown-symbolic.svg" alt="ubuntu power" />
+						<img width="16" height="16" src="./themes/Yaru/status/system-shutdown-symbolic.svg" alt="ubuntu power" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
 						<span>Power Off / Log Out</span>

@@ -204,7 +204,7 @@ function About() {
             {" "}
             <a
               href="https://en.wikipedia.org/wiki/HackerRank"
-              target={"_blank"}>
+              target={"_blank"} rel="noopener noreferrer">
               HackerRank
             </a>{" "}
           </u>
@@ -225,8 +225,7 @@ function About() {
           books, playing minecraft or watching{" "}
           <a
             href="https://www.youtube.com/channel/UCLoOFd2JRTF5_CI3EUq-uCw"
-            target="_blank"
-            rel="noreferrer">
+            target="_blank" rel="noopener noreferrer">
             {" "}
             dawidolko's videos.
           </a>
@@ -334,8 +333,7 @@ function Skills() {
             />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
-              target="_blank"
-              rel="noreferrer">
+              target="_blank" rel="noopener noreferrer">
               <img
                 title="yes it's a language!"
                 className="m-1"

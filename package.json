@@ -5,9 +5,8 @@
   "homepage": "https://ubuntu.dawidolko.pl",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "build": "next build && next export && node scripts/finish-export.mjs",
+    "start": "next start"
   },
   "engines": {
     "node": ">=16.x"

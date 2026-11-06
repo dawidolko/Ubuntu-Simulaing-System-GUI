@@ -74,7 +74,7 @@ export class AllApplications extends React.Component {
                 <div className={"flex md:pr-20 pt-5 align-center justify-center"}>
                     <div className={"flex w-2/3 h-full items-center pl-2 pr-2 bg-white border-black border-width-2 rounded-xl overflow-hidden md:w-1/3 "}>
                         <img className={"w-5 h-5"} alt="search icon" src={'./images/logos/search.png'} />
-                        <input className={"w-3/4 p-1 bg-transparent focus:outline-none"}
+                        <input aria-label="Search applications" className={"w-3/4 p-1 bg-transparent focus:outline-none"}
                             placeholder="Type to Search "
                             value={this.state.query}
                             onChange={this.handleChange} />

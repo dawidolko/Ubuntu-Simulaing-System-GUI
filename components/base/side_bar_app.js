@@ -43,7 +43,7 @@ export class SideBarApp extends Component {
                 className={(this.props.isClose[this.id] === false && this.props.isFocus[this.id] ? "bg-white bg-opacity-10 " : "") + " w-auto p-2 outline-none relative transition hover:bg-white hover:bg-opacity-10 rounded m-1"}
                 id={"sidebar-" + this.props.id}
             >
-                <img width="28px" height="28px" className="w-7" src={this.props.icon} alt="Ubuntu App Icon" />
+                <img width="28" height="28" className="w-7" src={this.props.icon} alt="Ubuntu App Icon" />
                 <img className={(this.state.scaleImage ? " scale " : "") + " scalable-app-icon w-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"} src={this.props.icon} alt="" />
                 {
                     (

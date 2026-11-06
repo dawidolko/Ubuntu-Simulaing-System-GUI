@@ -91,8 +91,7 @@ export class Terminal extends Component {
             <div
               id={`cursor-${id}`}
               className=" float-left mt-1 w-1.5 h-3.5 bg-white"></div>
-            <input
-              id={`terminal-input-${id}`}
+            <input aria-label="Terminal command" id={`terminal-input-${id}`}
               data-row-id={id}
               onKeyDown={this.checkKey}
               onBlur={this.unFocusCursor}

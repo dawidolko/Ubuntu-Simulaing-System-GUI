@@ -7,11 +7,13 @@ export default class Clock extends Component {
         this.day_list = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         this.state = {
             hour_12: true,
-            current_time: new Date()
+            current_time: null
         };
     }
 
     componentDidMount() {
+        /* The page is exported ahead of time, so the first render has no real time to show. */
+        this.setState({ current_time: new Date() });
         this.update_time = setInterval(() => {
             this.setState({ current_time: new Date() });
         }, 10 * 1000);
@@ -23,6 +25,7 @@ export default class Clock extends Component {
 
     render() {
         const { current_time } = this.state;
+        if (!current_time) return <span></span>;
 
         let day = this.day_list[current_time.getDay()];
         let hour = current_time.getHours();

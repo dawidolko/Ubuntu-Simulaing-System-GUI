@@ -1,74 +1,56 @@
 import React from "react";
 import Head from "next/head";
 
+const url = "https://ubuntu.dawidolko.pl/";
+const title = "Ubuntu Desktop Simulator | Browser OS by Dawid Olko";
+const description =
+  "An Ubuntu desktop simulated in the browser with Next.js and Tailwind CSS: dock, draggable windows, terminal, settings and working demo applications.";
+const image = `${url}og-image.jpg`;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Ubuntu Desktop Simulator",
+  url,
+  description,
+  applicationCategory: "BrowserApplication",
+  operatingSystem: "Any web browser",
+  author: {
+    "@type": "Person",
+    name: "Dawid Olko",
+    jobTitle: "Fullstack / AI Developer",
+    url: "https://dawidolko.pl",
+  },
+};
+
 export default function Meta() {
   return (
     <Head>
-      <title>ubuntu.dawidolko.pl - Simulaing System Ubuntu</title>
-      <meta charSet="utf-8" />
-      <meta
-        name="title"
-        content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
-      />
-      <meta
-        name="description"
-        content="Dawid Olko's (dawidolko) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="author" content="Dawid Olko (dawidolko)" />
-      <meta
-        name="keywords"
-        content="dawidolko, dawidolko's portfolio, dawidolko linux, ubuntu portfolio, dawid olko protfolio,dawid olko computer, dawid olko, dawidolko ubuntu, dawid olko ubuntu portfolio"
-      />
-      <meta name="robots" content="index, follow" />
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="language" content="English" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <link rel="canonical" href={url} />
+      <meta name="author" content="Dawid Olko" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#E95420" />
-      <meta name="image" content="images/logos/fevicon.png" />
-      <meta
-        itemProp="name"
-        content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Ubuntu Desktop Simulator" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:url" content={url} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Simulated Ubuntu desktop" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <meta
-        itemProp="description"
-        content="dawidolko's (dawidolko) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta itemProp="image" content="images/logos/fevicon.png" />
-      <meta name="twitter:card" content="summary" />
-      <meta
-        name="twitter:title"
-        content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
-      />
-      <meta
-        name="twitter:description"
-        content="Dawid Olko's (dawidolko) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="twitter:site" content="dawidolko" />
-      <meta name="twitter:creator" content="dawidolko" />
-      <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
-      <meta
-        name="og:title"
-        content="ubuntu.dawidolko.pl - Simulaing System Ubuntu"
-      />
-      <meta
-        name="og:description"
-        content="Dawid Olko's (dawidolko) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="og:image" content="images/logos/logo_1200.png" />
-      <meta name="og:url" content="http://ubuntu.dawidolko.pl" />
-      <meta name="og:site_name" content="Dawid Olko Personal Portfolio" />
-      <meta name="og:locale" content="en_IN" />
-      <meta name="og:type" content="website" />
-      <link rel="icon" href="images/logos/fevicon.svg" />
-      <link rel="apple-touch-icon" href="images/logos/logo.png" />
-      <link
-        rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
-        as="style"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
-        rel="stylesheet"></link>
+      <link rel="icon" href="/images/logos/fevicon.svg" />
+      <link rel="apple-touch-icon" href="/images/logos/logo.png" />
     </Head>
   );
 }
