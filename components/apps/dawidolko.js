@@ -17,7 +17,6 @@ export class AboutDawidolko extends Component {
       about: <About />,
       education: <Education />,
       skills: <Skills />,
-      projects: <Projects />,
       resume: <Resume />,
     };
 
@@ -180,7 +179,7 @@ function About() {
         <img
           className="w-full"
           src="./images/logos/bitmoji.JPG"
-          alt="dawidolko Patel Logo"
+          alt="Dawid Olko"
         />
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
@@ -235,6 +234,18 @@ function About() {
           And I also have interest in Deep Learning & Computer Vision!
         </li>
       </ul>
+      <div className="mt-6 mb-4 w-5/6 md:w-3/4 text-xs md:text-sm text-center">
+        Based on{" "}
+        <a
+          className="underline"
+          href="https://github.com/vivek9patel/vivek9patel.github.io"
+          target="_blank"
+          rel="noopener noreferrer">
+          vivek9patel.github.io
+        </a>{" "}
+        by Vivek Patel, MIT licence. Not affiliated with Canonical or Ubuntu.
+        Interface imitation for portfolio purposes.
+      </div>
     </>
   );
 }

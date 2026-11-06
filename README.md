@@ -6,6 +6,8 @@
 
 > 🟠 **GNOME, rebuilt as a static site** — Ubuntu 20.04 recreated in Next.js and Tailwind, with the applications defined in a config file
 
+**Based on [vivek9patel.github.io](https://github.com/vivek9patel/vivek9patel.github.io) by [Vivek Patel](https://github.com/vivek9patel), MIT licence.** `components/apps/dawidolko.js` is his `vivek.js`, renamed and edited. Not affiliated with Canonical or Ubuntu; this is an interface imitation for portfolio purposes.
+
 A portfolio shaped like Ubuntu 20.04: the dock down the left, draggable windows, the dark-orange palette and the GNOME behaviours that go with them.
 
 The part worth stealing is `apps.config.js` — every application on the desktop is an entry in one file, with its icon, its title and the component that renders it. Adding a window to the desktop means adding an object, not wiring a component into three places.
@@ -123,7 +125,7 @@ An accessibility panel in the corner of every page changes text size, contrast, 
 
 ## 📄 License
 
-MIT © [Dawid Olko](https://dawidolko.pl)
+MIT. Copyright (c) 2020 [vivek9patel](https://github.com/vivek9patel) and Copyright (c) 2024 [Dawid Olko](https://dawidolko.pl), see [LICENSE](LICENSE). Fonts, icons and images keep their own terms, listed in [CREDITS.md](CREDITS.md).
 
 ---
 
