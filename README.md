@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://ubuntu.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="Ubuntu Desktop Portfolio: interface experiment. GNOME, rebuilt as a static site" width="100%"></a>
+</p>
+
 # Ubuntu Desktop Portfolio
 
 > 🟠 **GNOME, rebuilt as a static site** — Ubuntu 20.04 recreated in Next.js and Tailwind, with the applications defined in a config file
@@ -12,7 +16,7 @@ The part worth stealing is `apps.config.js` — every application on the desktop
 ![EmailJS](https://img.shields.io/badge/EmailJS-contact%20form-FF7F50)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Live:** [ubuntu.dawidolko.pl](https://ubuntu.dawidolko.pl)
+**[Live site](https://ubuntu.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -25,6 +29,15 @@ The part worth stealing is `apps.config.js` — every application on the desktop
 - **A working calculator** — `expr-eval` parses the expression, so the app computes rather than pretends.
 - **Context menus** — right-click behaves as it does on the real desktop.
 - **SEO and PWA ready** — meta components and a manifest ship with it.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="docs/readme/desktop.webp" alt="Ubuntu Desktop Portfolio on a desktop screen" width="74%">
+  <img src="docs/readme/mobile.webp" alt="Ubuntu Desktop Portfolio on a phone" width="22%">
+</p>
 
 ---
 
@@ -105,3 +118,11 @@ This is one of four desktop-simulator portfolios, each built on a different stac
 ## 📄 License
 
 MIT © [Dawid Olko](https://dawidolko.pl)
+
+---
+
+## 👨‍💻 Author
+
+**Dawid Olko** · Fullstack / AI Developer
+
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
