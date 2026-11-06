@@ -27,6 +27,7 @@ class MyDocument extends Document {
                 <Head>
                     <meta httpEquiv="Content-Security-Policy" content={CONTENT_SECURITY_POLICY} />
                     <meta name="referrer" content="strict-origin-when-cross-origin" />
+                    <link rel="preload" as="image" href="/themes/Yaru/status/cof_orange_hex.svg" fetchPriority="high" />
                     <link rel="preload" href="/fonts/ubuntu-400-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
                     <script src="/a11y/a11y-panel.js" data-accent="#c2410c" data-position="right" defer></script>
                 </Head>
