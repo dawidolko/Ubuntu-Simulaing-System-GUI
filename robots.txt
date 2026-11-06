@@ -1,4 +1,3 @@
-# Wszystko w tym serwisie jest publiczne.
 User-agent: *
 Allow: /
 

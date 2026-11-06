@@ -1,0 +1,11 @@
+# Ubuntu Desktop Simulator
+
+> An Ubuntu desktop simulator built with Next.js and Tailwind CSS by Dawid Olko. It runs in the browser with a dock, draggable windows, a terminal, settings and a set of working demo applications.
+
+## Pages
+
+- [Home](https://ubuntu.dawidolko.pl/): the simulated desktop
+
+## Author
+
+- [Dawid Olko](https://dawidolko.pl): Fullstack / AI Developer, author of this project
